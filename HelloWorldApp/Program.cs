@@ -1,20 +1,38 @@
 ﻿//Task 10
-
 const int numberOfnumbers = 6;
-var numbers = new int[numberOfnumbers];
+var numbers = new List<int>();
 
-for (var i = 0; i < numbers.Length; i++)
+for (var i = 0; i < numberOfnumbers; i++)
 {
-    Console.WriteLine($"Enter the number {i+1}");
-    numbers[i] = int.Parse(Console.ReadLine());
+    Console.WriteLine($"Enter the number {i + 1}");
+    numbers.Add(int.Parse(Console.ReadLine()));
 }
 
 var sum = 0;
-for (var i = 0; i < numbers.Length; i++)
+for (var i = 0; i < numberOfnumbers; i++)
     sum += numbers[i];
 
 var average = 1.0 * sum / numberOfnumbers;
 Console.WriteLine($"The sum is {sum} and average is {average}");
+
+
+
+//b
+//const int numberOfnumbers = 6;
+//var numbers = new int[numberOfnumbers];
+
+//for (var i = 0; i < numbers.Length; i++)
+//{
+//    Console.WriteLine($"Enter the number {i+1}");
+//    numbers[i] = int.Parse(Console.ReadLine());
+//}
+
+//var sum = 0;
+//for (var i = 0; i < numbers.Length; i++)
+//    sum += numbers[i];
+
+//var average = 1.0 * sum / numberOfnumbers;
+//Console.WriteLine($"The sum is {sum} and average is {average}");
 
 //a
 //Console.WriteLine("Enter the first number");
