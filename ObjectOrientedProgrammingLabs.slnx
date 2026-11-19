@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="HelloWeb/HelloWeb.csproj" />
   <Project Path="HelloWorldApp/HelloWorldApp.csproj" />
+  <Project Path="ObjectOrientedProgramminIntro/ObjectOrientedProgramminIntro.csproj" Id="57663fa9-d4ed-43da-b0b5-ca5572e6a069" />
 </Solution>
